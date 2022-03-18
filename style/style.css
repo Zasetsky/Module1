@@ -25,17 +25,9 @@ nav ul li a {
 	color: #4B5D68;
 }
 
-@media (max-width: 667px) {
-	nav {
-		position: absolute;
-		width: 106.93vw;
-		height: 9.33vw;
-		top: 4.18.13vw;
-	}
+nav ul li a:hover {
+	text-decoration: underline;
 }
-
-/* END NAVBAR */
-/* ABOUT SECTION */
 
 .about a {
 	position: absolute;
@@ -74,6 +66,38 @@ nav ul li a {
 	line-height: 160%;
 }
 
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape)  {
+	nav {
+		top: 1vw;
+	}
+
+	nav img{
+		position: absolute;
+		width: 7vw;
+		height: 5vw;
+		left: 5vw;
+	}
+
+	.about a {
+		top: 4vw;
+		font-size: 3vw;
+		left: 20vw;
+	}
+
+	.help {
+		top: 4vw;
+		font-size: 3vw;
+		left: 38vw;
+	}
+
+	.features {
+		top: 4vw;
+		font-size: 3vw;
+		left: 55vw;
+	}
+}
+
+/* END NAVBAR */
 /* ABOUT SECTION */
 
 .about-section h1 {
@@ -120,14 +144,18 @@ nav ul li a {
 	border-radius: 3.13vw;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 1.13vw;
+	font-size: 1vw;
 	line-height: 160%;
 	align-items: center;
 	text-align: center;
 	border: none;
 	cursor: pointer;
 	color: #FFFFFF;
+}
 
+.about-section button:hover {
+	background: #7b69e2;
+	box-shadow: 0 0 1vw rgb(138,86,219);
 }
 
 .about-description {
@@ -173,6 +201,81 @@ nav ul li a {
 	font-weight: 500;
 	font-size: 1.13vw;
 	line-height: 160%;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.about-section h1 {
+		font-size: 7vw;
+		width: 70vw;
+		top: 16vw;
+		left: 5vw;
+	}
+
+	.about-section p {
+		left: 5vw;
+		width: 42vw;
+		top: 36vw;
+		font-size: 2vw;
+		line-height: 130%;
+	}
+
+	.about-section img {
+		width: 72vw;
+		height: 43vw;
+		left: 42vw;
+		top: 23vw;
+	}
+
+	.about-section button {
+		position: absolute;
+		width: 15vw;
+		height: 5vw;
+		left: 5vw;
+		top: 54vw;
+		font-size: 2.5vw;
+
+	}
+
+	.about-description {
+		width: 95vw;
+		height: 45vw;
+		left: 5vw;
+		top: 75vw;
+	}
+
+	.about-description img {
+		position: absolute;
+		width: 39.31vw;
+		height: 41vw;
+		left: 1vw;
+		top: 2vw;
+	}
+
+	.about-description h2 {
+		position: absolute;
+		width: 45vw;
+		height: 6.25vw;
+		left: 45vw;
+		top: 7.81vw;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 3.5vw;
+		line-height: 130%;
+		display: flex;
+		align-items: center;
+	}
+
+	.about-description p {
+		position: absolute;
+		width: 45vw;
+		height: 10.63vw;
+		left: 45vw;
+		top: 18vw;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 2vw;
+		line-height: 160%;
+	}
 }
 
 /* END ABOUT SECTION */
@@ -225,6 +328,39 @@ nav ul li a {
 	position: absolute;
 	width: 0.63vw;
 	left: 8.07vw;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.features-section {
+		display: flex;
+		position: absolute;
+		width: 36.50vw;
+		height: 10vw;
+		left: 31.69vw;
+		top: 130vw;
+	}
+
+	.features-section h2 {
+		font-size: 3.5vw;
+	}
+
+	.features-section p {
+		font-size: 2vw;
+		width: 64vw;
+		left: -10vw;
+	}
+
+	.line {
+		width: 2.7vw;
+		height: 0.3vw;
+		left: 11vw;
+
+	}
+
+.polygon{
+		width: 1vw;
+		left: 12.8vw;
+	}
 }
 
 /* CARD 1 */
@@ -309,6 +445,77 @@ nav ul li a {
 	color: #212353;
 }
 
+.card-1 a:hover .line {
+	left: 7.5vw;
+}
+.card-1 a:hover .polygon {
+	left: 8.6vw;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.card-1 {
+			width: 37vw;
+			height: 32vw;
+			top: 19vw;
+			left: -18vw;
+	}
+
+	.back1 {
+			width: 37vw;
+			height: 32vw;
+		}
+
+	.img-card1 {
+			width: 24vw;
+			height: 20vw;
+			left: -11vw;
+			top: 8vw;
+		}
+
+	.vector1 {
+			width: 16vw;
+			height: 13vw;
+			top: 1.25vw;
+			left: 21vw;
+		}
+	.ellipse1 {
+			position: absolute;
+			top: 3.2vw;
+			left: 24vw;
+			width: 5vw;
+			height: 3vw;
+		}
+
+	.card-1 h3 {
+			width: 15vw;
+			left: 14vw;
+			top: 1.56vw;
+			font-size: 2.5vw;
+		}	
+
+	.card-1 p {
+			width: 22vw;
+			left: 14vw;
+			top: 8vw;
+			font-size: 1.5vw;
+		}
+
+	.card-1 a {
+			width: 10vw;
+			left: 14vw;
+			top: 27vw;
+			font-size: 1.5vw;
+		}
+
+	.card-1 a:hover .line {
+			left: 12vw;
+		}
+
+	.card-1 a:hover .polygon {
+			left: 13.8vw;
+		}
+}
+
 /* CARD 2 */
 
 .card-2 {
@@ -385,6 +592,71 @@ nav ul li a {
 	color: #212353;
 }
 
+.card-2 a:hover .line {
+	left: 7.5vw;
+}
+.card-2 a:hover .polygon {
+	left: 8.6vw;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.card-2 {
+		top: 19vw;
+		width: 37vw;
+		height: 32vw;
+		left: 23vw;
+	}
+
+	.back2 {
+			width: 37vw;
+			height: 32vw;
+
+		}
+
+	.img-card2 {
+			width: 24vw;
+			height: 20vw;	
+			top: 5.5vw;
+			left: -12vw;
+		}
+
+	.vector2 {
+			width: 18vw;
+			height: 15vw;
+			left: 17vw;
+			top: 16vw;
+		}
+
+	.card-2 h3 {
+			width: 19vw;
+			left: 14vw;
+			top: 1.56vw;
+			font-size: 2.5vw;
+		}
+
+	.card-2 p {
+			width: 20vw;
+			left: 14vw;
+			top: 8vw;
+			font-size: 1.5vw;
+		}
+
+	.card-2 a {
+			width: 10vw;
+			left: 14vw;
+			top: 27vw;
+			font-size: 1.5vw;
+		}
+
+	.card-2 a:hover .line {
+			left: 12vw;
+		}
+
+	.card-2 a:hover .polygon {
+			left: 13.8vw;
+		}
+}
+
 /* CARD 3  31.25*/
 
 .card-3 {
@@ -457,6 +729,69 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.005em;
+}
+
+.card-3 a:hover .line {
+	left: 7.5vw;
+}
+.card-3 a:hover .polygon {
+	left: 8.6vw;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.card-3 {
+		top: 56vw;
+		width: 27.63vw;
+		height: 22.38vw;
+		left: -39vw;
+	}
+	.back3 {
+		width: 37vw;
+		height: 32vw;
+	}
+
+	.img-card3 {
+		width: 24vw;
+		height: 20vw;	
+		left: -11vw;
+		top: 9vw;
+	}
+
+	.ellipse2 {
+		width: 7vw;
+		height: 5vw;
+		left: 28vw;
+		top: 2vw;
+	}
+
+	.card-3 h3 {
+		width: 19vw;
+		left: 14vw;
+		top: 1.56vw;
+		font-size: 2.5vw;
+	}
+
+	.card-3 p {
+		width: 22vw;
+		left: 14vw;
+		top: 8vw;
+		font-size: 1.5vw;
+	}
+
+	.card-3 a {
+		width: 10vw;
+		left: 14vw;
+		top: 27vw;
+		font-size: 1.5vw;
+	}
+
+	.card-3 a:hover .line {
+			left: 12vw;
+		}
+
+	.card-3 a:hover .polygon {
+			left: 13.8vw;
+		}
 }
 
 /* CARD 4 */
@@ -541,6 +876,75 @@ nav ul li a {
 	color: #212353;
 }
 
+.card-4 a:hover .line {
+	left: 7.5vw;
+}
+.card-4 a:hover .polygon {
+	left: 8.6vw;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.card-4 {
+		width: 37vw;
+		height: 32vw;
+		top: 56vw;
+		left: 5vw;
+	}
+
+	.back4 {
+		width: 37vw;
+		height: 32vw;
+	}
+
+	.img-card4 {
+		width: 24vw;
+		height: 20vw;	
+		left: -11vw;
+		top: 7vw;
+	}
+
+	.vector3 {
+		width: 28vw;
+		height: 22vw;
+		top: 2vw;
+		left: 2vw;
+	}
+	.ellipse3 {
+		top: 25.5vw;
+		left: 29vw;
+		width: 6vw;
+		height: 4vw;
+	}
+
+	.card-4 h3 {
+		width: 19vw;
+		left: 14vw;
+		top: 1.56vw;
+		font-size: 2.5vw;
+	}
+
+	.card-4 p {
+		width: 22vw;
+		left: 14vw;
+		top: 8vw;
+		font-size: 1.5vw;
+	}
+
+	.card-4 a {
+		width: 10vw;
+		left: 14vw;
+		top: 27vw;
+		font-size: 1.5vw;
+	}
+
+	.card-4 a:hover .line {
+			left: 12vw;
+		}
+
+	.card-4 a:hover .polygon {
+			left: 13.8vw;
+		}
+}
 /* SLIDER-TABLE */
 
 .slider-table {
@@ -551,6 +955,10 @@ nav ul li a {
 	left: -15.94vw;
 	background: #9C69E2;
 	border-radius: 3.13vw;
+}
+
+.slider-table img {
+	cursor: pointer;
 }
 
 .slider-table h2 {
@@ -632,6 +1040,83 @@ nav ul li a {
 	opacity: 0.4;
 }
 
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.slider-table {
+		width: 95vw;
+		height: 45vw;
+		top: 100vw;
+		left: -27vw;
+	}
+
+	.slider-table h2 {
+		width: 25.31vw;
+		left: 5.81vw;
+		top: 2vw;
+		font-size: 2.50vw;
+	}
+
+	.color-dot {
+		width: 0.7vw;
+		height: 0.7vw;
+		left: 5.81vw;
+		top: 39.94vw;
+	}
+
+	.color-dot1 {
+		width: 0.5vw;
+		height: 0.5vw;
+		left: 7.06vw;
+		top: 40.13vw;
+	}
+
+	.color-dot2 {
+		width: 0.5vw;
+		height: 0.5vw;
+		left: 8vw;
+		top: 40.13vw;
+	}
+
+	.color-dot3 {
+		width: 0.5vw;
+		height: 0.5vw;
+		left: 8.94vw;
+		top: 40.13vw;
+	}
+
+	.left {
+		width: 1vw;
+		height: 2vw;
+		left: 70vw;
+		top: 39.78vw;
+	}
+
+	.left_line {
+		position: absolute;
+		width: 5vw;
+		height: 0.2vw;
+		left: 70.3vw;
+		top: 40.65vw;
+	}
+
+	.right_line {
+		position: absolute;
+		width: 2.5vw;
+		height: 0.2vw;
+		left: 78vw;
+		top: 40.65vw;
+		opacity: 0.4;
+	}
+
+	.right {
+		position: absolute;
+		width: 1vw;
+		height: 2vw;
+		left: 79.8vw;
+		top: 39.78vw;
+		opacity: 0.4;
+	}
+}
+
 /* SLIDER CARDS */
 /* CARD 1 */
 
@@ -652,6 +1137,7 @@ nav ul li a {
 	height: 5.63vw;
 	left: 4.38vw;
 	top: 3.75vw;
+	cursor: default;
 }
 
 .slider-card1 h4 {
@@ -659,7 +1145,7 @@ nav ul li a {
 	width: 10.63vw;
 	height: 1.81vw;
 	left: 11.88vw;
-	top: 55px;
+	top: 3.44vw;
 	font-style: normal;
 	font-weight: 900;
 	font-size: 1.13vw;
@@ -698,6 +1184,44 @@ nav ul li a {
 	line-height: 180%;
 }
 
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.slider-card1 {
+		width: 50vw;
+		height: 25vw;
+		left: 5.81vw;
+		top: 11vw;
+	}
+
+	.slider-card1 img {
+		width: 8vw;
+		height: 8vw;
+		left: 4.38vw;
+		top: 3.75vw;
+	}
+
+	.slider-card1 h4 {
+		width: 10.63vw;
+		height: 1.81vw;
+		left: 15vw;
+		top: 3.44vw;
+		font-size: 2vw;
+	}
+
+	.slider-card1 a {
+		width: 6.31vw;
+		left: 15vw;
+		top: 8.4vw;
+		font-size: 1.5vw;
+	}
+
+	.slider-card1 p {
+		width: 30vw;
+		height: 8.13vw;
+		left: 15vw;
+		top: 9vw;
+		font-size: 1.5vw;
+	}
+}
 /* CARD 2 */
 
 .slider-card2 {
@@ -767,6 +1291,45 @@ nav ul li a {
 	background: linear-gradient(135deg, #4b5d6891 20%, #4b5d683b 70%);
   	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.slider-card2 {
+		width: 30vw;
+		height: 25vw;
+		left: 58vw;
+		top: 11vw;
+	}
+
+	.slider-card2 svg {
+		width: 8vw;
+		height: 8vw;
+		left: 2.50vw;
+		top: 3.75vw;
+	}
+
+	.slider-card2 h4 {
+		width: 10.63vw;
+		height: 1.81vw;
+		left: 12vw;
+		top: 3.44vw;
+		font-size: 2vw;
+	}
+
+	.slider-card2 a {
+		width: 10vw;
+		left: 12vw;
+		top: 8.4vw;
+		font-size: 1.5vw;
+	}
+
+	.slider-card2 p {
+		width: 15vw;
+		height: 8.13vw;
+		left: 12vw;
+		top: 9vw;
+		font-size: 1.5vw;
+	}
 }
 
 /* CARD 3 */
@@ -839,10 +1402,46 @@ nav ul li a {
   	-webkit-text-fill-color: transparent;
 }
 
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	.slider-card3 {
+		width: 30vw;
+		height: 25vw;
+		left: 90vw;
+		top: 11vw;
+	}
+
+	.slider-card3 svg {
+		width: 8vw;
+		height: 8vw;
+		left: 2.50vw;
+		top: 3.75vw;
+	}
+
+	.slider-card3 h4 {
+		width: 10.63vw;
+		height: 1.81vw;
+		left: 12vw;
+		top: 3.44vw;
+		font-size: 2vw;
+	}
+
+	.slider-card3 a {
+		width: 10vw;
+		left: 12vw;
+		top: 8.4vw;
+		font-size: 1.5vw;
+	}
+	.slider-card3 p {
+		width: 15vw;
+		height: 8.13vw;
+		left: 12vw;
+		top: 9vw;
+		font-size: 1.5vw;
+	}
+}
+
 /* END FEATURES SECTION */
 /* FOOTER */
-
-
 
 hr {
 	position: absolute;
@@ -964,4 +1563,103 @@ footer p {
 	display: flex;
 	align-items: center;
 	letter-spacing: 0.01em;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) {
+	hr {
+		width: 120vw;
+		height: 0.2vw;
+	}
+}
+
+@media (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+	hr {
+		width: 125vw;
+		height: 0.2vw;
+		top: 285vw;
+	}
+
+	footer img {
+		width: 7vw;
+		height: 5vw;
+		left: 15vw;
+		top: 295vw;
+	}
+
+	.social {
+		position: absolute;
+		width: 15vw;
+		height: 1.88vw;
+		left: 80vw;
+		top: 294vw;
+		font-size: 2vw;
+	}
+
+	.facebook {
+		width: 5vw;
+		height: 5vw;
+		left: 80vw;
+		top: 301vw;
+	}
+
+	.twitter {
+		width: 5vw;
+		height: 5vw;
+		left: 87vw;
+		top: 301vw;
+	}
+
+	.instagram {
+		width: 5vw;
+		height: 5vw;
+		left: 94vw;
+		top: 301vw;
+	}
+
+	footer h3 {
+		width: 9.56vw;
+		left: 25vw;
+		top: 294vw;
+		font-size: 2vw;
+	}
+
+	.h4 {
+		width: 20.94vw;
+		height: 3.94vw;
+		left: 15vw;
+		top: 300vw;
+		font-size: 1.5vw;
+	}
+
+	.h4-2 {
+		width: 30vw;
+		height: 3.94vw;
+		left: 15vw;
+		top: 303vw;
+		font-size: 1.5vw;
+	}
+
+	footer h5 {
+		width: 15vw;
+		height: 3.63vw;
+		left: 15vw;
+		top: 307vw;
+		font-size: 1.5vw;
+	}
+
+	footer p {
+		position: absolute;
+		width: 25vw;
+		height: 3.06vw;
+		left: 15vw;
+		top: 318vw;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 1vw;
+		line-height: 180%;
+		color: #212353;
+		display: flex;
+		align-items: center;
+		letter-spacing: 0.01em;
+	}
 }
